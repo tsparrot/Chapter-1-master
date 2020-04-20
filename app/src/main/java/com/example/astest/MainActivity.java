@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 tv.setText("选择一个机器人");
                 icon_line.setVisibility(View.VISIBLE);
+                ibtn1.setVisibility(View.VISIBLE);
+                ibtn2.setVisibility(View.VISIBLE);
+                ibtn3.setVisibility(View.VISIBLE);
                 rtb.setVisibility(View.GONE);
             }
         });
